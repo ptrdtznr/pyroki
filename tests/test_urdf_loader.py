@@ -1,6 +1,6 @@
 """Basic IK
 
-Simplest Inverse Kinematics Example using PyRoki.
+Simple test to verify pyroki and some of its dependencies are properly installed
 """
 
 import time
@@ -11,8 +11,7 @@ import viser
 from robot_descriptions.loaders.yourdfpy import load_robot_description
 from viser.extras import ViserUrdf
 
- 
-# Simple test to verify pyroki and some of its dependencies are properly installed
+
 def test_urdf_loader():
     """Main function for basic IK."""
 
